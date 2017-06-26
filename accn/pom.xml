@@ -24,9 +24,8 @@
 		<junit.version>3.8.1</junit.version>
 		<servlets.version>3.1.0</servlets.version>
 		<mysql.version>6.0.6</mysql.version>
-		<spring.version>4.3.9.RELEASE</spring.version>
+		<spring.version>4.3.8.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
-		<tiles.version>3.0.7</tiles.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -46,6 +45,8 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					<fork>true</fork>
+					<executable>C:\Program Files\Java\jdk1.8.0_121\bin\javac</executable>
 				</configuration>
 			</plugin>
 		</plugins>
